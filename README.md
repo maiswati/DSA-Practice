@@ -27,7 +27,10 @@ This repo contains my daily DSA practice in C++, organized by topics.
 | Arrays | Union Array | [Leetcode 9](https://leetcode.com/problems/union-array/) |
 | Arrays | Majority Element in Array | [Leetcode 10](https://leetcode.com/problems/majority-element/) |
 | Arrays | Maximum consecutive ones in Array | [Leetcode 11](https://leetcode.com/problems/max-consecutive-ones/) |
-
+| Arrays | Better max subarray sum | [Leetcode 12](https://leetcode.com/problems/max-subarray-sum/) |
+| Arrays | Brute max subarray sum | [Leetcode 13](https://leetcode.com/problems/max-subarray-sum/) |
+| Arrays | Optimal max subarray sum| [Leetcode 14](https://leetcode.com/problems/max-subarray-sum/) |
+| Arrays | Rearrange elements by sign | [Leetcode 15](https://leetcode.com/problems/rearrange-array-elements-by-sign/) |
 
 
 ## Platforms:
