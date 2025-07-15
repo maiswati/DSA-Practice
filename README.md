@@ -33,6 +33,7 @@ This repo contains my daily DSA practice in C++, organized by topics.
 | Arrays | Rearrange elements by sign | [Leetcode 15](https://leetcode.com/problems/rearrange-array-elements-by-sign/) |
 | Arrays | Next Permutation | [Leetcode 16](https://leetcode.com/problems/next-permutation/) |
 | Arrays | Brute Leaders in array | [Leetcode 17](https://leetcode.com/problems/leaders-in-array/) |
+| Arrays | Optimal Leaders in array | [Leetcode 18](https://leetcode.com/problems/leaders-in-array/) |
 
 
 ## Platforms:
