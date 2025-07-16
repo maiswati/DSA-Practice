@@ -37,7 +37,7 @@ This repo contains my daily DSA practice in C++, organized by topics.
 | Arrays | Brute Longest Sequence in array | [Leetcode 19](https://leetcode.com/problems/longest-consecutive-sequence/) |
 | Arrays | Brute Number of subarrays with sum k | [Leetcode 20](https://leetcode.com/problems/subarray-sum-equals-k/) |
 | Arrays | Optimal Longest sequence | [Leetcode 21](https://leetcode.com/problems/longest-consecutive-sequence/) |
-
+| Arrays | Optimal Set Matrix zero | [Leetcode 22](https://leetcode.com/problems/set-matrix-zeroes/) |
 ## Platforms:
 - [LeetCode](https://leetcode.com/)
 - [GeeksforGeeks](https://auth.geeksforgeeks.org/)
