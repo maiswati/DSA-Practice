@@ -39,6 +39,10 @@ This repo contains my daily DSA practice in C++, organized by topics.
 | Arrays | Optimal Longest sequence | [Leetcode 21](https://leetcode.com/problems/longest-consecutive-sequence/) |
 | Arrays | Optimal Set Matrix zero | [Leetcode 22](https://leetcode.com/problems/set-matrix-zeroes/) |
 | Arrays | Optimal count of subarray | [Leetcode 23](https://leetcode.com/problems/subarray-sum-equals-k/) |
+| Linked List | Print elements of the Linked List | 
+| Linked List | Find the length of the Linked List | 
+| Linked List | Insert the element at the beginning | 
+| Linked List | Search for the element in the Linked List | 
 
 ## Platforms:
 - [LeetCode](https://leetcode.com/)
