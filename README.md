@@ -44,6 +44,7 @@ This repo contains my daily DSA practice in C++, organized by topics.
 | Linked List | Insert the element at the beginning | 
 | Linked List | Search for the element in the Linked List | 
 | Linked List | Delete node from linked list without access to head |
+| Linked List | Insert node at any position in linked list |
 
 ## Platforms:
 - [LeetCode](https://leetcode.com/)
