@@ -48,6 +48,7 @@ This repo contains my daily DSA practice in C++, organized by topics.
 | Linked List | Middle Element of the DLL | [Leetcode 24](https://leetcode.com/problems/middle-of-the-linked-list/) |
 | Linked List | Detect loop in linked list | [Leetcode 24](https://leetcode.com/problems/linked-list-cycle/) |
 | Linked List | Get starting of the loop in linked list | [Leetcode 24](https://leetcode.com/problems/inked-list-cycle-ii/) |
+| Linked List | Length of the loop in the linked list using tortoise and hare approach |
 
 ## Platforms:
 - [LeetCode](https://leetcode.com/)
