@@ -51,6 +51,7 @@ This repo contains my daily DSA practice in C++, organized by topics.
 | Linked List | Length of the loop in the linked list using tortoise and hare approach |
 | Linked List | Add two numbers in linked list| [Leetcode 27](https://leetcode.com/problems/add-two-numbers/) |
 | Linked List | Reverse a linked list iterative method | [Leetcode 28](https://leetcode.com/problems/reverse-linked-list/) |
+| Linked List | Reverse a linked list recursive method | [Leetcode 29](https://leetcode.com/problems/reverse-linked-list/) |
 
 ## Platforms:
 - [LeetCode](https://leetcode.com/)
