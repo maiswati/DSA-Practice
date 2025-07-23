@@ -47,6 +47,7 @@ bool detectLoop(Node* head) {
         mpp[temp] = 1;
         temp = temp->next;
     }
+    return false;
 }
 
 int main() {
