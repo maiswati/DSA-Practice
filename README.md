@@ -53,6 +53,7 @@ This repo contains my daily DSA practice in C++, organized by topics.
 | Linked List | Reverse a linked list iterative method | [Leetcode 28](https://leetcode.com/problems/reverse-linked-list/) |
 | Linked List | Reverse a linked list recursive method | [Leetcode 29](https://leetcode.com/problems/reverse-linked-list/) |
 | Linked List | Delete all occurences of target from the linked list |
+| Linked List | Get all pairs in the doubly linked list with sum equal target |
 
 ## Platforms:
 - [LeetCode](https://leetcode.com/)
