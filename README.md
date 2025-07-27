@@ -56,6 +56,7 @@ This repo contains my daily DSA practice in C++, organized by topics.
 | Linked List | Get all pairs in the doubly linked list with sum equal target |
 | Linked List | Remove duplicates from the DLL |
 | Stack | Implemented Stack using Array |
+| Queue | Implemented Queue using Array |
 
 ## Platforms:
 - [LeetCode](https://leetcode.com/)
