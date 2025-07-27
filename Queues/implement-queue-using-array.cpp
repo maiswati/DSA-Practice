@@ -7,47 +7,47 @@ class Queue {
     int start;
     int end;
 
-    public: 
+    public:
         Queue() {
-            size = 4;
+            size = 10;
             currSize = 0;
             arr = new int[size];
             start = -1;
             end = -1;
-        }
+        } 
     void push(int x) {
-        if(start == -1 && end == -1) {
-            start = 1;
-            end = 1;
-            currSize++;
-            arr[end] = x;
-        } else if(currSize < size) {
-            end = (end + 1) % size;
-            arr[end] = x;
-            currSize++;
-        }
-    }
-void pop() {
-    if (start == -1 && end == -1) {
-        cout << "Queue is empty\n";
-        return;
-    } 
-    else if (start == end) {
-        start = -1;
-        end = -1;
-    } 
-    else {
-        start = (start + 1) % size;
-    }
-    currSize--;
-}
-    int top() {
-        if(start == -1 && end == -1) {
-            cout << "Queue is empty";
-            return -1;
+        if(currSize == size) {
+            cout << "Cannot push";
+        } else if(currSize == 0) {
+            start = 0;
+            end = 0;
         } else {
-            return arr[start];
+            end = (end+1) % size;
         }
+        arr[end] = x;
+        currSize++;
+    }
+    int pop() {
+        if(currSize == 0) {
+            cout << "Cannot pop";
+            return;
+        }
+        int ele = arr[start];
+        if(currSize == 1) {
+            start = -1;
+            end = -1;
+        } else  {
+            start = (start+1) % size;
+        }
+        currSize--;
+        return ele;
+    }
+    int top() {
+        if(currSize == 0) {
+            cout << "Queue is empty";
+            return;
+        }
+        return arr[start];
     }
     int Size() {
         return currSize;
@@ -55,13 +55,12 @@ void pop() {
 };
 int main() {
     Queue q;
-    q.push(6);
-    q.push(3);
-    q.push(7);
-    cout << "Top of stack before deleting any element is : " << q.top() << endl;
-    cout << "size of stack before deleting any element is : " << q.Size() << endl;
-    q.pop();
-    cout << "The element at top is: " << q.top() << endl;
-    cout << "Size of stack after deleting element : " << q.Size() << endl;
-    cout << "Top of the stack after deleting an element : " << q.top() << endl;
+    q.push(5);
+    q.push(10);
+    q.push(23);
+    q.push(18);
+    cout << "The size of queue before deleting is : " << q.Size() << endl;
+    cout << "The element popped is: " << q.pop();
+    cout << "The element at top is: " << q.top();
+    cout << "The size of the queue is : " << q.Size();
 }
