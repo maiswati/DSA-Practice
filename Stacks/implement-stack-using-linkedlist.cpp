@@ -1,52 +1,71 @@
 #include<bits/stdc++.h>
 using namespace std;
-struct stackNode {
+
+struct Node {
     int data;
-    stackNode * next;
-    int size;
-    stackNode(int data1) {
+    Node* next;
+
+    public:
+    Node(int data1) {
         data = data1;
         next = nullptr;
     }
 };
-struct MyStack {
-    stackNode* top;
-    int size;
-    MyStack() {
-        top = nullptr;
-        size = 0;
-    }
-    void stackPush(int x) {
-        stackNode * element = new stackNode(x);
-        element -> next = top;
-        top = element;
-        cout << "element pushed" << endl;
+
+class Stack {
+    Node* top = nullptr;
+    int size = 0;
+
+public:
+    void push(int x) {
+        Node* ele = new Node(x);
+        ele->next = top;
+        top = ele;
         size++;
     }
-    int stackPop() {
-        if(top==nullptr) {
+
+    int pop() {
+        if(top == nullptr) {
             return -1;
         }
-        int topData = top->data;
-        stackNode* temp = top;
+        int el = top->data;
+        Node* temp = top;
         top = top->next;
         delete temp;
         size--;
-        return topData;
+        return el;
     }
-    int stackSize() {
+
+    int Top() {
+        if(top == nullptr) {
+            return -1;
+        }
+        int elem = top->data;
+        return elem;
+    }
+
+    bool empty() {
+        if(top == nullptr) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    int Size() {
         return size;
     }
 };
+
 int main() {
-    MyStack s;
-    s.stackPush(10);
-    s.stackPush(20);
-    s.stackPush(30);
-    cout << "Size: " << s.stackSize() << endl;
-    cout << "Popped: " << s.stackPop() << endl;
-    cout << "Current size: " << s.stackSize() << endl;
-    return 0;
-
-
+    Stack s;
+    s.push(40);
+    s.push(28);
+    s.push(18);
+    s.push(23);
+    cout << "The size of stack is: " << s.Size() << endl;
+    cout << "the popped element is: " << s.pop() << endl;
+    cout << "the top element is: " << s.Top() << endl;
+    cout << "is is empty : " << s.empty() << endl;
+    cout << "The popped element is: " << s.pop() << endl;
 }
