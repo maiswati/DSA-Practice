@@ -61,6 +61,7 @@ This repo contains my daily DSA practice in C++, organized by topics.
 | Stack | Implemented Stack using Linked List |
 | Stack | Implemented Stack using list in C++ STL |
 | Queue | Implemented Queue using Linked List |
+| Stack | Implemented MinStack using approach of Pair TC: O(1)  SC: O(2*n) |
 
 ## Platforms:
 - [LeetCode](https://leetcode.com/)
