@@ -57,6 +57,7 @@ This repo contains my daily DSA practice in C++, organized by topics.
 | Linked List | Remove duplicates from the DLL |
 | Stack | Implemented Stack using Array |
 | Queue | Implemented Queue using Array |
+| Stack | Implemented Stack using Linked List |
 
 ## Platforms:
 - [LeetCode](https://leetcode.com/)
