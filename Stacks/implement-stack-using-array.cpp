@@ -1,41 +1,51 @@
 #include<bits/stdc++.h>
 using namespace std;
 class Stack {
-    int size;
-    int * arr;
-    int top;
+    int n = 5;
+    int arr[5];
+    int currSize = 0;
+    int top = -1;
+    
     public:
-        Stack() {
-            top = -1;
-            size = 1000;
-            arr = new int[size];
-        }
     void push(int x) {
-        top++;
-        arr[top] = x;
+        if(currSize > n) {
+            cout << "Stack is full" << endl;
+        } else {
+            top++;
+            arr[top] = x;
+            currSize++;
+        }
     }
     int pop() {
-        int x = arr[top];
-        top--;
-        return x;
+        if(currSize == 0) {
+            cout << "Stack is empty" << endl;
+            return -1;
+        } else {
+            int ele = arr[top];
+            top--;
+            currSize--;
+            return ele;
+        }
     }
     int Top() {
+        if(currSize == 0) {
+            return -1;
+        }
         return arr[top];
     }
-    int Size() {
-        return top+1;
+    int size() {
+        return currSize;
     }
 };
-
 int main() {
     Stack s;
-    s.push(6);
-    s.push(3);
-    s.push(7);
-    cout << "Top of stack before deleting any element is : " << s.Top() << endl;
-    cout << "size of stack before deleting any element is : " << s.Size() << endl;
-    cout << "The element deleted is : " << s.pop() << endl;
-    cout << "Size of stack after deleting element : " << s.Size() << endl;
-    cout << "Top of the stack after deleting an element : " << s.Top() << endl;
-    return 0;
+    s.push(10);
+    s.push(20);
+    s.push(30);
+    cout << "size : " << s.size() << endl;
+    cout << "Popped element: " << s.pop() << endl;
+    s.push(40);
+    cout << "Popped element: " << s.pop() << endl;
+    cout << "the top element is: " << s.Top() << endl;
+    
 }
