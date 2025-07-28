@@ -59,6 +59,7 @@ This repo contains my daily DSA practice in C++, organized by topics.
 | Stack | Implemented Stack using Vector |
 | Queue | Implemented Queue using Array |
 | Stack | Implemented Stack using Linked List |
+| Stack | Implemented Stack using list in C++ STL |
 | Queue | Implemented Queue using Linked List |
 
 ## Platforms:
