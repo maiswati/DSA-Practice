@@ -58,6 +58,7 @@ This repo contains my daily DSA practice in C++, organized by topics.
 | Stack | Implemented Stack using Array |
 | Queue | Implemented Queue using Array |
 | Stack | Implemented Stack using Linked List |
+| Queue | Implemented Queue using Linked List |
 
 ## Platforms:
 - [LeetCode](https://leetcode.com/)
