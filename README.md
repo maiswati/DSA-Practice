@@ -63,7 +63,7 @@ This repo contains my daily DSA practice in C++, organized by topics.
 | Queue | Implemented Queue using Linked List |
 | Stack | Implemented MinStack using approach of Pair TC: O(1)  SC: O(2*n) |
 | Stack | Implemented MinStack using approach of Formula TC: O(1)  SC: O(n) |
-
+| Stack | Added codes for all conversions between prefix infix and postfix expressions to strong the concept of stack |
 ## Platforms:
 - [LeetCode](https://leetcode.com/)
 - [GeeksforGeeks](https://auth.geeksforgeeks.org/)
