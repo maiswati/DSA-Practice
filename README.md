@@ -67,6 +67,7 @@ This repo contains my daily DSA practice in C++, organized by topics.
 | Stack | Added code for next greater element I |
 | Stack | Next Greater Element - I | [Leetcode 30](https://leetcode.com/problems/next-greater-element-i/) |
 | Stack | Next Greater Element - II | [Leetcode 31](https://leetcode.com/problems/next-greater-element-ii/) |
+| Stack | Next Smaller Element |
 
 ## Platforms:
 - [LeetCode](https://leetcode.com/)
