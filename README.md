@@ -65,6 +65,8 @@ This repo contains my daily DSA practice in C++, organized by topics.
 | Stack | Implemented MinStack using approach of Formula TC: O(1)  SC: O(n) |
 | Stack | Added codes for all conversions between prefix infix and postfix expressions to strong the concept of stack |
 | Stack | Added code for next greater element I |
+| Stack | Next Greater Element - I | [Leetcode 30](https://leetcode.com/problems/next-greater-element-i/) |
+| Stack | Next Greater Element - II | [Leetcode 31](https://leetcode.com/problems/next-greater-element-ii/) |
 
 ## Platforms:
 - [LeetCode](https://leetcode.com/)
