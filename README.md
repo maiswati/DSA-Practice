@@ -64,6 +64,8 @@ This repo contains my daily DSA practice in C++, organized by topics.
 | Stack | Implemented MinStack using approach of Pair TC: O(1)  SC: O(2*n) |
 | Stack | Implemented MinStack using approach of Formula TC: O(1)  SC: O(n) |
 | Stack | Added codes for all conversions between prefix infix and postfix expressions to strong the concept of stack |
+| Stack | Added code for next greater element I |
+
 ## Platforms:
 - [LeetCode](https://leetcode.com/)
 - [GeeksforGeeks](https://auth.geeksforgeeks.org/)
