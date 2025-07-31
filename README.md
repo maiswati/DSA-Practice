@@ -70,7 +70,7 @@ This repo contains my daily DSA practice in C++, organized by topics.
 | Stack | Next Smaller Element |
 | Stack | Trapping Rainwater | [Leetcode 32](https://leetcode.com/problems/trapping-rain-water/) |
 | Stack | Sum of Subarray Minimum | [Leetcode 33](https://leetcode.com/problems/sum-of-subarray-minimums/) |
-
+| Stack | Asteroids Problem | [Leetcode 33](https://leetcode.com/problems/asteroid-collision) |
 ## Platforms:
 - [LeetCode](https://leetcode.com/)
 - [GeeksforGeeks](https://auth.geeksforgeeks.org/)
