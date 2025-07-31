@@ -68,6 +68,8 @@ This repo contains my daily DSA practice in C++, organized by topics.
 | Stack | Next Greater Element - I | [Leetcode 30](https://leetcode.com/problems/next-greater-element-i/) |
 | Stack | Next Greater Element - II | [Leetcode 31](https://leetcode.com/problems/next-greater-element-ii/) |
 | Stack | Next Smaller Element |
+| Stack | Trapping Rainwater | [Leetcode 32](https://leetcode.com/problems/trapping-rain-water/) |
+| Stack | Sum of Subarray Minimum | [Leetcode 33](https://leetcode.com/problems/sum-of-subarray-minimums/) |
 
 ## Platforms:
 - [LeetCode](https://leetcode.com/)
