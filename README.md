@@ -73,6 +73,8 @@ This repo contains my daily DSA practice in C++, organized by topics.
 | Stack | Asteroids Problem | [Leetcode 34](https://leetcode.com/problems/asteroid-collision) |
 | Stack | Sum of Subarray minimums optimal solution Problem | [Leetcode 33](https://leetcode.com/problems/sum-of-subarray-minimums) |
 | Stack | Sum of subarray ranges | [Leetcode 35](https://leetcode.com/problems/sum-of-subarray-ranges) |
+| Stack | Remove K digits to get small Number | [Leetcode 36](https://leetcode.com/problems/remove-k-digits) |
+
 ## Platforms:
 - [LeetCode](https://leetcode.com/)
 - [GeeksforGeeks](https://auth.geeksforgeeks.org/)
